@@ -15,5 +15,7 @@
 - git clone
 - composer install
 - npm install && npm run dev
+- Выбрать БД, обновить в .env, если это не sqlite. Если Sqlite - сделать  truncate
+- php artisan migrate
 - php artisan serve
 
